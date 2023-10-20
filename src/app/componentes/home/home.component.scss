@@ -1,0 +1,136 @@
+.container {
+    background: #f0ece5;
+    padding: 5%;
+    color: #574747;   
+    font-family: "Open Sans";
+    font-weight: lighter; 
+}
+h1{
+    font-size: 88px;
+    font-weight: bold;
+}
+
+.layout {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    background-image: url('/assets/imgs/Lineas-fondo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.grow1 {
+    flex-grow: 1;
+    width: 33.33%;
+}
+
+.try-button {
+    width: 207px;
+    padding: 14px;
+    border-radius: 51px;
+    font-family: Arial;
+    color: #574747;
+    font-size: 20px;
+    background: #a4d4c0;    
+    text-decoration: none;
+    border-color: transparent;
+    box-shadow: 0px 10px 26px -6px rgb(93, 163, 168);
+    -webkit-box-shadow: 0px 10px 26px -6px rgb(93, 163, 168);
+    -moz-box-shadow: 0px 10px 26px -6px rgb(93, 163, 168);
+
+}
+
+.try-button:hover {
+    background: #5da3a8;
+    text-decoration: none;
+}
+
+
+.arrow {
+    width: 33px;
+    height: 33px;
+    background-color: #5da3a8;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.arrow::after {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: "";
+    display: inline-block;
+    height: 0.45em;
+    position: relative;
+    transform: rotate(39deg);
+    width: 0.45em;
+    margin-left: -6px;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.center{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 57em;
+}
+
+.circle {
+    width: 24em;
+    height: 26em;
+    background-color: #a4d4c0;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.circle img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.imgPera{
+    position: relative;
+    top: 13%;
+    left: 0%;
+    z-index: 13;
+}
+
+
+.mgCana{
+    position: relative;
+    top: 4%;
+    left: -1%;
+    z-index: 14;
+}
+
+.layout2 {
+    width: 100%;
+    display: flex;    
+}
+
+.grow2-1 {
+    flex-grow: 1;
+    width: 30%;
+    margin: 44px -146px 0px 17px;
+}
+.circle2{
+    width: 64px;
+    height: 58px;
+    background-color: #a4d4c0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grow2-2 {
+    flex-grow: 1;
+    width: 70%;
+}

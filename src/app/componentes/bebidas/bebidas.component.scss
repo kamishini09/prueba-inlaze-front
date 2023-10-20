@@ -1,0 +1,51 @@
+.container {
+    background: #f0ece5;    
+    color: #574747;   
+    font-family: "Open Sans";
+    font-weight: lighter; 
+    padding: 0% 5% 5% 5%;
+}
+.layout {
+      
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    
+    background: #345e3a;
+    padding: 5%;
+    border-radius: 25px;
+    color: white;
+  }
+
+  .cocktail-item {
+    text-align: center;
+  }
+  
+  .cocktail-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid transparent;
+
+
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .cocktail-item:nth-child(3n - 2) img {
+    border-color: rgb(231, 130, 147);
+  }
+  
+  .cocktail-item:nth-child(3n - 1) img {
+    border-color: rgb(81, 207, 102);
+  }
+  
+  .cocktail-item:nth-child(3n) img {
+    border-color: rgb(218, 154, 91);
+  }

@@ -1,0 +1,13 @@
+
+
+<div class="container">
+
+    <section class="layout">
+        <div *ngFor="let cocktail of popularCocktails" class="cocktail-item">          
+          <img src="{{ cocktail.strDrinkThumb }}" alt="{{ cocktail.strDrink }}">
+          <h2>{{ cocktail.strDrink }}</h2>
+          <p>{{ cocktail.strInstructions }}</p>
+        </div>
+      </section>
+
+</div>
